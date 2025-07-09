@@ -163,9 +163,14 @@ footer nav p a {
         margin: 0 20px 0 20px;
     }
 
+    main section h2 {
+        text-align: left;
+    }
+
     section.banner {
         display: flex;
         flex-direction:  row-reverse;
+        margin: 0 10vw 0 10vw;
     }
 
     section.banner div.texto {
@@ -177,5 +182,32 @@ footer nav p a {
     section.banner img {
         width: 100%;
     }
+
+    section.post ul {
+        display: flex;
+        margin: 1vw 0 0 0;
+    }
+
+    section.post {
+        padding: 3vw 10vw 3vw 10vw;
+    } 
+
+    section.post ul li {
+        margin: 0 1vw 0 1vw;
+    }
+
+    section.works ul {
+        display: flex;
+    }
+
+    section.works {
+        padding: 10vw 10vw 10vw 10vw;
+    }
+
+    section.works h2 {
+        font-size: 2rem;
+        padding: 0 0 3vw 0;
+    }
+
 }
 
